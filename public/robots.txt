@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://pkg.damarseta.id/sitemap.xml
