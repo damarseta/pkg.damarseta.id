@@ -4,8 +4,6 @@
       "a",
       "article",
       "body",
-      "button",
-      "circle",
       "div",
       "footer",
       "h1",
@@ -14,7 +12,6 @@
       "header",
       "html",
       "img",
-      "line",
       "link",
       "main",
       "meta",
@@ -31,11 +28,7 @@
     ],
     "classes": [
       "breadcrumbs",
-      "button",
-      "button-inner",
-      "buttons",
-      "entry-content",
-      "entry-footer",
+      "dark",
       "entry-header",
       "entry-link",
       "footer",
@@ -52,7 +45,6 @@
       "post-entry",
       "post-footer",
       "post-header",
-      "post-meta",
       "post-single",
       "post-tags",
       "post-title",
@@ -64,9 +56,6 @@
     ],
     "ids": [
       "menu",
-      "moon",
-      "sun",
-      "theme-toggle",
       "top",
       "top-link"
     ]

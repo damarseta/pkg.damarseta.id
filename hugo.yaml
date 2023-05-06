@@ -1,8 +1,8 @@
 baseURL: 'https://pkg.damarseta.id/'
 languageCode: en-us
-title: 'pkg-dot-damarseta-dot-id'
+title: 'Damarseta Research & Consulting'
 theme: "PaperMod"
-paginate: 5
+paginate: 10
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -12,7 +12,6 @@ buildExpired: false
 minify:
   disableXML: true
   minifyOutput: false
-
 
 Author:
   name: Widnyana Putra
@@ -26,33 +25,33 @@ params:
   title: pkg.damarseta.id
   robotNoIndex: false
   description: "Damarseta Research & Consulting"
-  keywords: [Blog, damarseta]
+  keywords: [package, damarseta]
   author: ["widnyana"]
   disableShare: true
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
+  defaultTheme: dark # dark, light
+  disableThemeToggle: true
 
   ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
-  disableSpecial1stPost: false
+  disableSpecial1stPost: true
   disableScrollToTop: false
   comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: true
+  hidemeta: true
+  hideSummary: true
+  showtoc: false
   tocopen: false
 
   assets:
     # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
+    disableFingerprinting: true
     favicon: "<link / abs url>"
     favicon16x16: "<link / abs url>"
     favicon32x32: "<link / abs url>"
@@ -60,22 +59,22 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: " "
     icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Yo!
+    title: pkg.damarseta.id
     # subtitle: "This is subtitle"
     # imageUrl: "<img location>"
     # imageWidth: 120
     # imageHeight: 120
     # imageTitle: my image
-    buttons:
-      - name: Golang Package
-        url: go
+    # buttons:
+    #   - name: Golang Package
+    #     url: go
 
   socialIcons:
     - name: github
