@@ -2,14 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pkg.damarseta.id/go/zap/</loc>
+    <loc>https://pkg.damarseta.id/go/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>https://pkg.damarseta.id/categories/</loc>
-  </url><url>
-    <loc>https://pkg.damarseta.id/go/</loc>
   </url><url>
     <loc>https://pkg.damarseta.id/</loc>
   </url><url>
     <loc>https://pkg.damarseta.id/tags/</loc>
+  </url><url>
+    <loc>https://pkg.damarseta.id/go/test/</loc>
+  </url><url>
+    <loc>https://pkg.damarseta.id/go/testbed/</loc>
   </url>
 </urlset>
